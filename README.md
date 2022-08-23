@@ -1,10 +1,10 @@
-## LAB - Class 26
-# Project: Intro to Django
+# LAB - Class 26
+## Project: Intro to Django
 Author: Brentice Loper
 
-#Setup
+## Setup
 Ensure you have properly setup your venv.
 Use python manage.py runserver to test the site deployment on your local machine.
 
-# Tests
+## Tests
 Tests uses the built-in django testing framework.
