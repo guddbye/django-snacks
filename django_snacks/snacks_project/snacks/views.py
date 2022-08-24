@@ -1,7 +1,10 @@
-from django.views.generic import TemplateView
+from django.views.generic import ListView, DetailView
+from .models import Snack
 
-class HomePageView(TemplateView):
-    template_name = "home.html"
+class SnackListView(ListView):
+    template_name = "snack_list.html"
+    model = Snack
 
-class AboutPageView(TemplateView):
-    template_name = "about.html"
+class SnackDetailView(DetailView):
+    template_name = "snack_detail.html"
+    model = Snack
