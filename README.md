@@ -1,4 +1,5 @@
-# LAB - Class 26
+# LAB - Class 27
+
 ## Project: Intro to Django
 Author: Brentice Loper
 
